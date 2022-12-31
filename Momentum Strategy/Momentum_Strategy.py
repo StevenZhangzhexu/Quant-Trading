@@ -130,9 +130,8 @@ if __name__ == '__main__':
     cerebro.addanalyzer(bt.analyzers.SharpeRatio, riskfreerate=0.0)
     cerebro.addanalyzer(bt.analyzers.Returns)
     cerebro.addanalyzer(bt.analyzers.DrawDown)
-    # this is how we attach the strategy we have implemented
     cerebro.addstrategy(MomentumStrategy)
-
+    
     cerebro.broker.set_cash(100000)
     # commission fee is 1%
     cerebro.broker.setcommission(0.01)
