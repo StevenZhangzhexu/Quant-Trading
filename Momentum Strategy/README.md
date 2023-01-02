@@ -1,6 +1,6 @@
 # The Moentum Strategy
 
-This strategy combined **moentum**, **simple moving average** and **average true range as signal.** The strategy buy top 20% momentum range stocks and sell the stock if it's price falls below its **100 days MA** or it's not in top 20% stocks by momentum. Buying or selling amount is determined by current stock price and **average true range.**
+This strategy combined **moentum**, **simple moving average** and **average true range as signal.** The strategy would buy stocks with top 20% momentum range and sell stocks if their price falls below **100 days MA** or they are not in top 20% stocks by momentum. Buying or selling amount is determined by current stock price and **average true range.**
 
 ## Metric
 
